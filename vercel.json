@@ -5,6 +5,6 @@
     { "source": "/blog/atom(.*)", "destination": "https://duncan.dev/feed.xml"},
     { "source": "/rss", "destination": "https://duncan.dev/feed.xml"},
     { "source": "/(.*).xml", "destination": "https://duncan.dev/feed.xml"},
-    { "source": "/(.*)", "destination": "https://duncan.dev" }
+    { "source": "/(.*)", "destination": "https://duncan.dev/$1" }
   ]
 }
