@@ -1,6 +1,5 @@
 {
   "redirects": [
-    
     { "source": "/sitemap.xml", "destination": "https://duncan.dev/sitemap.xml"},
     { "source": "/blog/atom(.*)", "destination": "https://duncan.dev/feed.xml"},
     { "source": "/rss", "destination": "https://duncan.dev/feed.xml"},
